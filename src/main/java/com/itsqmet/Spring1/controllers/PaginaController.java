@@ -6,7 +6,7 @@ public class PaginaController {
 
     @GetMapping("/")
     public String home(){
-        return "home";
+        return "index";
     }
 
     @GetMapping("/contacto")
